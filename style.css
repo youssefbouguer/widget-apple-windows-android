@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    /* position: relative; */
+ width: 80%;
+    margin: auto; 
+    min-height:70vh;
+    display: inline-block;
+    margin-left: 23%;
+}
+
+.item-container{
+    margin-left: 40px;
+margin-top: 15%;
+    width: 17%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    /* position: absolute; */
+   float: left;
+   cursor: pointer;
+   border-radius: 9px;
+   text-align: center;
+   transition-duration: 0.4s;
+}
+.item-container i{
+    font-size: 60px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.item1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+ .df{
+
+    margin-left: 20px;
+    display: inline;
+    font-size: 18px;
+
+}
+
+.dfn {
+  margin-left: 20px;
+  font-size: 18px;
+ 
+}
+
+
+.item-container:hover{
+    background-color: white;
+    color: black;
+
+
+}
